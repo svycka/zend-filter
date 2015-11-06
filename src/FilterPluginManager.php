@@ -21,8 +21,8 @@ use Zend\ServiceManager\AbstractPluginManager;
 class FilterPluginManager extends AbstractPluginManager
 {
     protected $aliases = [
-        'Zend\Filter\Int'            => 'Zend\Filter\ToInt',
-        'Zend\Filter\Null'           => 'Zend\Filter\ToNull',
+        'zendfilterint'  => 'toint',
+        'zendfilternull' => 'tonull',
     ];
 
     /**
